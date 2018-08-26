@@ -72,5 +72,16 @@ fatal: Not a git repository (or any parent up to mount parent )
 Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 linuxlab37:~/cs110/clone> git clone https://github.com/binghamtonuniversity-cs110/lab-1-fall18-Korhan5.git
 fatal: destination path 'lab-1-fall18-Korhan5' already exists and is not an empty directory.
-linuxlab37:~/cs110/clone> 
-
+linuxlab37:~/cs110/clone> cd ..
+linuxlab37:~/cs110> mv commands.txt <repo folder>
+Missing name for redirect.
+linuxlab37:~/cs110> mv commands.text <repo cs110> 
+Missing name for redirect.
+linuxlab37:~/cs110> cd <repo folder>
+Missing name for redirect.
+linuxlab37:~/cs110> cd <repo clone>
+Missing name for redirect.
+linuxlab37:~/cs110> git commit -a -m "first commit"
+fatal: Not a git repository (or any parent up to mount parent )
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+linuxlab37:~/cs110> 
